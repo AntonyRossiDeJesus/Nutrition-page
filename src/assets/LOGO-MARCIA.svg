@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 397.75 181.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 37.65px;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-3 {
+        fill: #3b4855;
+      }
+
+      .cls-4 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-size: 136.33px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada_1">
+    <g>
+      <text class="cls-2" transform="translate(12.37 114.11)"><tspan class="cls-5" x="0" y="0">M</tspan><tspan x="110.42" y="0">a</tspan><tspan class="cls-7" x="176.13" y="0">r</tspan><tspan class="cls-6" x="219.35" y="0">cia</tspan></text>
+      <polygon class="cls-3" points="382.08 181.45 0 181.45 20.75 123.76 397.75 123.76 382.08 181.45"/>
+      <text class="cls-1" transform="translate(25.7 162.31) scale(1.44 1)"><tspan x="0" y="0">NUTRICIONIS</tspan><tspan class="cls-4" x="206.2" y="0">T</tspan><tspan x="222.09" y="0">A</tspan></text>
+    </g>
+  </g>
+</svg>

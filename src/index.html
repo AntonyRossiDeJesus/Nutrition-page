@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr Marcia</title>
+
+    <link href="output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-[#B2DDC1] h-24 w-full flex justify-center px-4 py-2">
+      <div class="container flex justify-between items-center">
+        <a href="#"
+          ><img src="/src/assets/LOGO-MARCIA.svg" alt="Logo" class="w-32 h-14"
+        /></a>
+        <div class="flex flex-col gap-2">
+          <div class="flex gap-2 justify-end">
+            <img
+              src="/src/assets/instagram.png"
+              alt=""
+              class="w-6 h-6 rounded-full cursor-pointer"
+            />
+            <img
+              src="/src/assets/facebook.png"
+              alt=""
+              class="w-6 h-6 rounded-full cursor-pointer"
+            />
+            <img
+              src="/src/assets/twitter.png"
+              alt=""
+              class="w-6 h-6 rounded-full cursor-pointer"
+            />
+          </div>
+
+          <nav class="flex gap-2 justify-end">
+            <ul
+              class="gap-4 text-base md:text-xl text-zinc-700 cursor-pointer hidden lg:flex"
+            >
+              <li class="hover:text-red-600 transition-all">Home</li>
+              <li class="hover:text-red-600 transition-all">Sobre mim</li>
+              <li class="hover:text-red-600 transition-all">
+                Consulta Dr. Marcia
+              </li>
+              <li class="hover:text-red-600 transition-all">Blog</li>
+              <li class="hover:text-red-600 transition-all">Depoimentos</li>
+              <li class="hover:text-red-600 transition-all">Contato</li>
+            </ul>
+            <img
+              src="/src/assets/LUPA.svg"
+              alt=""
+              class="w-6 h-6 cursor-pointer"
+            />
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="relative flex w-full h-[1000px] lg:h-[800px] justify-center items-center bg-custom-bg-hero bg-cover bg-center"
+    >
+      <div
+        class="absolute flex w-full h-[1000px] lg:h-[800px] justify-center items-center bg-zinc-800 opacity-60 bg-cover bg-center"
+      ></div>
+
+      <div
+        class="container px-2 text-white z-10 max-w-[600px] flex flex-col lg:flex-row lg:container"
+      >
+        <div
+          class="w-full flex flex-col items-center text-center min-h-96 lg:max-w-[55%]"
+        >
+          <div class="flex flex-col gap-2 pb-10">
+            <p class="text-xl xl:text-2xl">Alimentação saudável e eficiente</p>
+            <h1 class="text-5xl lg:text-7xl">Novos Hábitos e Nova vida!</h1>
+            <h2 class="font-bold text-base xl:text-xl">
+              Agende hoje mesmo uma consulta comigo, criando novos <br />
+              hábitos e aumentando sua qualidade de vida.
+            </h2>
+          </div>
+
+          <div
+            class="w-full flex flex-col xl:flex-row xl:max-w-full gap-4 justify-center max-w-[320px]"
+          >
+            <button
+              class="bg-[#B2DDC1] hover:bg-[#0def5c] text-zinc-800 py-2 px-4 flex items-center gap-2 rounded-xl transition-all"
+            >
+              Agendar Consulta Agora
+              <i class="w-3 h-3 bg-custom-seta-button-double"></i>
+            </button>
+            <button
+              class="bg-zinc-100 hover:bg-[#e0e0e0] text-zinc-800 py-2 px-4 flex items-center gap-2 rounded-xl transition-all"
+            >
+              Sobre Mim
+              <i class="w-3 h-3 bg-custom-seta-button-one"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <div
+            class="bg-zinc-100 w-full h-36 flex gap-2 rounded-tl-xl rounded-bl-xl"
+          >
+            <img
+              class="w-28 h-36 rounded-tl-xl rounded-bl-xl"
+              src="/src/assets/saladas.webp"
+              alt="imagem de prato com saladas diversificadas"
+            />
+            <div
+              class="p-2 text-zinc-700 flex items-start justify-center flex-col"
+            >
+              <h2 class="font-bold pb-1">
+                Ferro heme é melhor? Entenda a diferença
+              </h2>
+              <p class="text-xs xl:text-sm">
+                Ferro Heme:Encontrado em alimentos de origem animal.
+              </p>
+              <p class="text-xs xl:text-sm">
+                Ferro Não Heme:Encontrado em alimentos de origem vegetal, como
+                feijões, lentilha.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-zinc-100 w-full h-36 flex gap-2 rounded-tl-xl rounded-bl-xl"
+          >
+            <img
+              class="w-28 h-36 rounded-tl-xl rounded-bl-xl"
+              src="/src/assets/modelo2.jpg"
+              alt="imagem de modelo pegando sol na praia"
+            />
+            <div
+              class="p-2 text-zinc-700 h-full flex items-start justify-center flex-col"
+            >
+              <h2 class="font-bold pb-1">
+                Conheça os benefícios da vitamina D
+              </h2>
+              <p class="text-xs xl:text-sm">
+                Possível Redução do Risco de Câncer.
+              </p>
+              <p class="text-xs xl:text-sm">
+                A vitamina D ajuda a regular a produção de vários hormônios
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-zinc-100 w-full h-36 flex gap-2 rounded-tl-xl rounded-bl-xl"
+          >
+            <img
+              class="w-28 h-36 rounded-tl-xl rounded-bl-xl"
+              src="/src/assets/modelo3.jpg"
+              alt="imagem de diversos multivitaminicos"
+            />
+            <div
+              class="p-2 text-zinc-700 h-full flex items-start justify-center flex-col"
+            >
+              <h2 class="font-bold pb-1">
+                Ferro heme é melhor? Entenda a diferença
+              </h2>
+              <p class="text-xs xl:text-sm">
+                Ferro Heme:Encontrado em alimentos de origem animal.
+              </p>
+              <p class="text-xs xl:text-sm">
+                Ferro Não Heme:Encontrado em alimentos de origem vegetal, como
+                feijões, lentilha.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="w-full bg-white h-[800px] px-10 py-20 flex justify-center">
+      <div
+        class="w-full bg-custom-bg-two bg-center flex justify-end bg-cover h-full p-2"
+      >
+        <div
+          class="w-full max-w-[400px] lg:max-w-[600px] xl:max-w-[700px] flex flex-col text-end items-end gap-4 sm:p-5 lg:p-10 xl:p-20"
+        >
+          <div
+            class="text-white text-xl lg:text-2xl xl:text-3xl flex flex-col gap-2 items-end pt-10"
+          >
+            <p
+              class="bg-[#B2DDC1] hover:bg-[#0def5c] text-zinc-800 py-2 px-4 w-fit rounded-lg font-bold text-sm lg:text-base"
+            >
+              Começa aqui uma nova vida
+            </p>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+              Incluso na Consulta
+            </h1>
+            <p>
+              Atendimento clínico personalizado, promovendo uma Alimentação
+              específica de acordo com a genética de cada paciente, baseada em
+              cálculos, análises e exames para alcançar as suas necessidades
+              nutricionais.
+            </p>
+          </div>
+
+          <div class="w-full max-w-[320px] flex flex-col gap-4">
+            <button
+              class="bg-[#B2DDC1] hover:bg-[#0def5c] text-zinc-800 py-2 px-4 flex justify-end items-center gap-2 rounded-xl transition-all w-full text-sm"
+            >
+              Agendar Consulta Agora
+              <i class="w-3 h-3 bg-custom-seta-button-double"></i>
+            </button>
+            <button
+              class="bg-zinc-100 hover:bg-[#e0e0e0] text-zinc-800 py-2 px-4 flex justify-end items-center gap-2 rounded-xl transition-all"
+            >
+              Sobre Mim
+              <i class="w-3 h-3 bg-custom-seta-button-one"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
